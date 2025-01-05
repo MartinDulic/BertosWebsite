@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ /* Force Tailwind's active bullet color for swiper pagination */
+.swiper-pagination-bullet-active {
+    @apply bg-primary !important;
+}
