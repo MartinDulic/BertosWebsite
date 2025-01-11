@@ -35,6 +35,7 @@ export default {
       // Custom text shadows
       textShadow: {
         sm: '1.41px 1.41px 2px rgba(0, 0, 0, 1)',
+        md: '2px 2px 4px rgba(0, 0, 0, 1)',
       },
     },
   },

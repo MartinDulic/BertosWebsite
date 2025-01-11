@@ -7,6 +7,8 @@ import PrivateToursPage from './pages/PrivateToursPage'
 import GroupToursPage from './pages/GroupToursPage'
 import TransfersPage from './pages/TransfersPage'
 import ContactPage from './pages/ContactPage'
+import BoatPage from './pages/BoatPage'
+import PrivateTourPage from './pages/PrivateTourPage'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -18,6 +20,9 @@ const router = createBrowserRouter(
       <Route path='/groupTours' element={<GroupToursPage />} />
       <Route path='/transfers' element={<TransfersPage />} />
       <Route path='/contact' element={<ContactPage />} />
+      <Route path="/fleet/:id" element={<BoatPage />} />      
+      <Route path="/privateTour/:id" element={<PrivateTourPage />} />      
+
     </Route>,
   
   

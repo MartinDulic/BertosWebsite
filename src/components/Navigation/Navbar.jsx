@@ -1,9 +1,9 @@
 import React from 'react'
-import Logo from '../../assets/logo_color_small.webp'
+import Logo from '../../assets/logo_small.webp'
 import navLinks from '../../data/NavLinks'
 import NavbarLink from './NavbarLink'
 import { Link } from 'react-router-dom'
-import Cta from '../Cta'
+import Cta from '../Shared/Cta'
 
 const Navbar = () => {
   return (
@@ -13,7 +13,7 @@ const Navbar = () => {
           {navLinks.slice(0, -1).map((item, index) => (
             <NavbarLink key={index} Text={item.linkText} Path={item.toPath}/>
           ))}
-          <Cta/>
+          <Cta text={"Contatct"} linkTo={"/contact"}/>
         </div>
     </section>
   )
