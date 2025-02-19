@@ -1,9 +1,9 @@
 import React from 'react'
-import NotFoundPage from './NotFoundPage';
 import { useParams } from 'react-router-dom';
-import privateTours from '../data/privateTours';
+import NotFoundPage from './NotFoundPage';
 import TourPage from './TourPage';
-
+import privateTours from '../data/tours/privateTours.js';
+import privateToursInfo from '../data/tours/privateToursInfo.js'
 
 const PrivateTourPage = () => {
   const { id } = useParams();
@@ -15,7 +15,7 @@ const PrivateTourPage = () => {
 
 
   return (
-    <TourPage tour={tour}/>
+    <TourPage tour={tour} tourInfo={privateToursInfo} />
   )
 }
 

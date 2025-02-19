@@ -13,7 +13,7 @@ const Navbar = () => {
           {navLinks.slice(0, -1).map((item, index) => (
             <NavbarLink key={index} Text={item.linkText} Path={item.toPath}/>
           ))}
-          <Cta text={"Contatct"} linkTo={"/contact"}/>
+          <Cta text={"Contact"} linkTo={"/contact"}/>
         </div>
     </section>
   )

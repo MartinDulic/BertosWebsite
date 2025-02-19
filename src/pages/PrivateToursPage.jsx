@@ -1,7 +1,7 @@
 import React from 'react'
 import TextHero from '../sections/Shared/TextHero'
 import BannerGrid from '../sections/Shared/BannerGrid'
-import privateTours from '../data/privateTours'
+import privateTours from '../data/tours/privateTours'
 
 const PrivateToursPage = () => {
   return (
