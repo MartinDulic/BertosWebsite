@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const AnimatedBar = ({ fillAmount }) => {
+const AnimatedBar = ({ fillAmount, duration, route, price }) => {
   const [isVisible, setIsVisible] = useState(false);
   const progressBarRef = useRef(null);
 
@@ -29,11 +29,16 @@ const AnimatedBar = ({ fillAmount }) => {
   }, []);
 
   return (
-    <div ref={progressBarRef} className="w-full h-4 bg-gray-200 rounded-full overflow-hidden">
-      <div
-        className="h-full bg-blue-500 rounded-full transition-all duration-1000 ease-in-out"
-        style={{ width: isVisible ? `${fillAmount * 100}%` : '0%' }}
-      ></div>
+    <div>
+      <p className='mb-2 text-xl'>{route} | {price}</p>
+      <div ref={progressBarRef} className="w-full h-8 mb-4 bg-gray-200 overflow-hidden">
+        <div
+          className="h-full min-w-fit bg-teriary transition-all duration-1000 ease-in-out"
+          style={{ width: isVisible ? `${fillAmount * 100}%` : '0%' }}
+        >
+          <div className='flex items-center h-full w-full px-4 text-gray-200'>{duration}</div>
+        </div>
+      </div>
     </div>
   );
 };
