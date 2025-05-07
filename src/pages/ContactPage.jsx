@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "../assets/logo_small.webp"
+import Logo from "../assets/Logo_small.webp"
 import IconedTextLine from '../components/Navigation/IconedTextLine'
 import { FaMapMarkedAlt } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
