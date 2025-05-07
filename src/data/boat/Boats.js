@@ -1,5 +1,5 @@
-import capCamarat625WaImages from "../boat/capCamarat625WaImages";
-import quicksilver675OpenImages from "../boat/Quicksilver675OpenImages";
+import capCamarat625WaImages from "./CapCamarat625WaImages";
+import quicksilver675OpenImages from "./Quicksilver675OpenImages";
 import Boat1 from '../../assets/temp/berto_brod1.jpg'
 import Boat2 from '../../assets/temp/berto_brod2.jpg'
 import BoatPrices from "../../sections/Boat/BoatPrices";
