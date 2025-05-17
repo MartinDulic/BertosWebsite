@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaLongArrowAltDown } from "react-icons/fa";
 
-
 const TourStop = ({stop, showArrow}) => {
   return (
     <div className='bg-secondary'>
@@ -11,10 +10,13 @@ const TourStop = ({stop, showArrow}) => {
             </div>
         }
         <div className="w-full relative h-[20rem] sm:h-[24rem] md:h-[32rem] lg:h-[40rem] ">
-            {/* Background Image */}
+            {/* Background Image - Stretched to fill */}
             <div
-                className="absolute inset-0 bg-cover bg-bottom"
-                style={{ backgroundImage: `url(${stop.image})` }}
+                className="absolute inset-0 bg-no-repeat bg-center"
+                style={{ 
+                  backgroundImage: `url(${stop.image})`,
+                  backgroundSize: "100% 100%" // Stretches image to fill
+                }}
             />
 
             {/* Tint Overlay */}
@@ -28,7 +30,6 @@ const TourStop = ({stop, showArrow}) => {
             </div>
         </div>
         <p className='p-4 lg:px-12 lg:pt-10 text-primary text-lg text-center'>{stop.text}</p>
-
     </div>
   )
 }
