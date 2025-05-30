@@ -26,7 +26,7 @@ const BoatPage = () => {
   ];
 
   return (
-    <section className='bg-secondary px-8 pt-8'>
+    <section className='bg-secondary'>
       <Slider slides={imageSlides} arrowStyle={"text-white"}/>
       <BoatDetails BoatName={boat.boatName} Slides={detailsSlides}/>
       <div className='py-10 flex items-center justify-center'>

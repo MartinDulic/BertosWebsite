@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, createHashRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
+import { Route, createHashRouter, createRoutesFromElements, RouterProvider, ScrollRestoration } from 'react-router-dom';
 import IndexLayout from './layouts/IndexLayout';
 import NoFooterLayout from './layouts/NoFooterLayout';
 import HomePage from './pages/HomePage';
@@ -26,7 +26,7 @@ const router = createHashRouter(
         <Route path="/privateTour/:id" element={<PrivateTourPage />} />
         <Route path="/groupTour/:id" element={<GroupTourPage />} />
       </Route>,
-      
+
       {/* Routes with NoFooterLayout */}
       <Route element={<NoFooterLayout />}>
         <Route path='/contact' element={<ContactPage />} />
@@ -37,7 +37,9 @@ const router = createHashRouter(
 
 const App = () => {
   return (
-    <RouterProvider router={router} />
+    <>
+      <RouterProvider router={router} />
+    </>
   );
 };
 

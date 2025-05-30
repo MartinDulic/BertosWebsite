@@ -12,7 +12,7 @@ const Review = ({clientName, text}) => {
         <FaStar />
       </div>
       <p className='text-primary font-bold '>{clientName}</p>
-      <p className='px-10 text-sm text-primary text-center sm:px-20 md:px-40 lg:px-60'>{text}</p>
+      <p className='px-10 text-sm text-primary text-justify sm:px-20 md:px-40 lg:px-60'>{text}</p>
     </div>
   )
 }

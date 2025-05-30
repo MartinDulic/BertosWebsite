@@ -33,11 +33,15 @@ import red0930 from '../../assets/groupTours/red/red_0930.webp'
 import sunset0600 from '../../assets/groupTours/sunset/sunset_0600.webp'
 import sunset0700 from '../../assets/groupTours/sunset/sunset_0700.webp'
 
+import biskup from '../../assets/groupTours/new/biskup.webp'
+import purpleTitle from '../../assets/groupTours/new/NovaUvala.webp'
+import sunsetMain from '../../assets/groupTours/new/Sunset.webp'
+
 
 const privateTours = [
     {
         id: 1,
-        bannerImage: golden0900,
+        bannerImage: golden1100,
         name: "GOLDEN TOUR",
         locations: ["Biskup", "Bol", "Zecevo", "Vrboska", "Stiniva"],
         desc: "Experience the beauty of one of the world’s most iconic beaches, while also enjoying the tranquil and serene atmosphere of the hidden, unspoiled bays on the islands of Brač and Hvar. Discover the perfect balance between the lively allure of a famous beach and the peaceful retreat offered by these secluded coastal gems.",
@@ -56,7 +60,7 @@ const privateTours = [
         ],
         stops: [
             {
-                image: golden0900,
+                image: purple0900,
                 time: "9:00 AM",
                 text: "Setting off on a boat tour from Makarska to the islands is an exciting adventure that combines stunning natural landscapes with rich cultural exploration. Departing from the port of Makarska, you'll be greeted by the crystal-clear waters of the Adriatic Sea and Mediterranean sunshine, creating the ideal atmosphere for an unforgettable journey."
             },
@@ -100,7 +104,7 @@ const privateTours = [
     },
     {
         id: 2,
-        bannerImage: blue0900,
+        bannerImage: blue1015,
         name: "BLUE CAVE TOUR",
         locations: ["Pokrivenik", "Little Blue Cave", "Stiniva", "Jelsa", "Vrboska", "Zecevo", "Puntica"],
         desc: "Experience the magic of the Small Blue Cave, a hidden natural wonder, while also enjoying the tranquil and serene atmosphere of the unspoiled bays on the islands of Brač and Hvar. Explore the charming town of Jelsa, where history and beauty come together, offering a peaceful escape with its picturesque streets, vibrant culture, and stunning surroundings. Discover the perfect balance between adventure and relaxation in this idyllic coastal paradise.",
@@ -156,12 +160,12 @@ const privateTours = [
                 text: "Upon your desire to stay in Vrboska we can head towards Zečevo island, a perfect place to cool off after a good lunch. This secluded cove is famous for its crystal-clear turquoise waters, sandy seabed, and breathtaking natural beauty. As your boat enters the Blue Lagoon, you'll be captivated by the peaceful ambiance and the stunning array of blue hues that surround you. The lagoon offers an ideal setting for swimming, snorkeling, or having a drink at the beach bar Lantina, which is the only thing on the whole island."
             },
             {
-                image: blue0500,
+                image: biskup,
                 time: "5:00 PM",
-                text: "After that, it is time for the last hidden gem of your trip and your last island as well, Brač. As you approach Brač Island, you'll be greeted by its untouched charm and tranquility. The bay is renowned for its crystal-clear waters, perfect for swimming and snorkeling. The vibrant marine life beneath the surface makes it a true paradise for those who love exploring the underwater world."
+                text: "After that, it is time for the last hidden gem of your trip and your last island as well, Brač. As you approach Brač Island, you'll be greeted by its untouched charm and tranquility. The bay is renowned for its crystal-clear waters, perfect for swimming and snorkeling. The vibrant marine life beneath the surface makes it a true paradise for those who love exploring the underwater world.",
             },
             {
-                image: blue0545,
+                image: golden0530,
                 time: "5:45 PM",
                 text: "As your boat tour draws to a close, you'll begin your journey back to the charming town of Makarska, where your adventure started. As you sail towards the mainland, take in the breathtaking views of the coastline and surrounding islands one last time, leaving you with unforgettable memories of your journey."
             }
@@ -169,7 +173,7 @@ const privateTours = [
     },
     {
         id: 3,
-        bannerImage: purple0900,
+        bannerImage: purpleTitle,
         name: "PURPLE TOUR",
         locations: ["Vruja", "Pučišća", "Povlja", "Rasotica"],
         desc: "This tour starts with a panoramic view of Makarska Riviera and Vruja bay, and takes you through some of the most charming spots on Brač, starting with the tranquil village of Pučišća, known for its traditional stone masonry. Continuing to the peaceful villages of Povlja and Rasotica, each offers stunning natural beauty, authentic island life, and serene surroundings perfect for relaxation.",
@@ -207,12 +211,12 @@ const privateTours = [
                 text: "Next stop is Povlja, also on the island of Brač. Here, we will stop for lunch at a restaurant offering stunning sea views. Povlja is a serene village known for its beautiful bay, olive groves, and pine forests. This tranquil spot is ideal for relaxation and enjoying the Mediterranean lifestyle. Povlja’s rich history includes remnants of Roman architecture and early Christian structures."
             },
             {
-                image: purple0400,
+                image: biskup,
                 time: "4:00 PM",
                 text: "The perfect way to end your tour is at the hidden bay Rasotica on the island of Brač. Rasotica is known for its stunning natural beauty, crystal-clear waters, and peaceful atmosphere. It’s the ideal destination for those seeking a quieter, more authentic experience on the island."
             },
             {
-                image: purple0500,
+                image: golden0530,
                 time: "5:00 PM",
                 text: "As your boat tour draws to a close, you'll begin your journey back to the charming town of Makarska, where your adventure started. As you sail towards the mainland, take in the breathtaking views of the coastline and surrounding islands one last time, leaving you with unforgettable memories of your journey. Upon reaching the harbor, you’ll be safely escorted back to the dock, completing a memorable and scenic day on the sea."
             }
@@ -220,7 +224,7 @@ const privateTours = [
     },
     {
         id: 4,
-        bannerImage: red0800,
+        bannerImage: red0930,
         name: "RED TOUR",
         locations: ["Old Town Hvar", "Stari Grad Hvar", "Puntica"],
         desc: "This tour takes you through the vibrant charm of Hvar Town, the serene beauty of Stari Grad, and concludes with a relaxing swim in the hidden bay of Puntica on Brač. Experience the perfect blend of history, culture, and tranquility on this full-day Adriatic adventure.",
@@ -265,7 +269,7 @@ const privateTours = [
     },
     {
         id: 5,
-        bannerImage: sunset0600,
+        bannerImage: sunsetMain,
         name: "SUNSET TOUR",
         locations: ["Puntica"],
         desc: "A sunset along the Makarska Riviera is truly a sight to behold, best experienced from the sea. Join us for a 90-minute Sunset Tour, where you'll not only enjoy the stunning views but also have the chance to swim in a secluded bay on the island of Brač.",
