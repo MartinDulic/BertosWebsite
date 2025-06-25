@@ -22,9 +22,8 @@ const Nav = () => {
       <Sidebar isOpen={isSidebarOpen} onClose={() => setIsSidebarOpen(false)} />
       {/*Menu button*/}
       <RiMenuFill
-        className={`z-10 mr-4 text-2xl fixed top-7 right-2 text-primary ${
-          isRotating ? 'animate-spin180' : ''
-        } md:hidden`}
+        className={`z-10 mr-4 text-2xl fixed top-7 right-2 
+          ${isRotating ? 'animate-spin180' : ''} ${isSidebarOpen ? " text-white " : " text-primary "} md:hidden`}
         onClick={onMenuClick}
       />
       {/*Padding for page start*/}

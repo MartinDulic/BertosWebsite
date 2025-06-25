@@ -7,7 +7,6 @@ import ImageSlide from '../components/Boat/ImageSlide.jsx';
 import BoatDescription from '../sections/Boat/BoatDescription.jsx';
 import BoatDetails from '../sections/Boat/BoatDetails.jsx';
 import BoatSpecs from '../sections/Boat/BoatSpecs.jsx';
-import BoatPrices from '../sections/Boat/BoatPrices.jsx';
 import Cta from '../components/Shared/Cta.jsx';
 
 const BoatPage = () => {
@@ -18,11 +17,15 @@ const BoatPage = () => {
     return <NotFoundPage/>;
   }
 
-  const imageSlides = boat.images.map((item, index) => (<ImageSlide key={index} Image={item} />));
+  const imageSlides = boat.images.map((item, index) => (
+    <div className="h-fit w-fit">
+      <ImageSlide key={index} Image={item} />
+    </div>
+  ));
+  
   const detailsSlides = [
     <BoatDescription Description={boat.desc}/>,
-    <BoatSpecs specs={boat.specs} equipment={boat.equipment}/>,
-    <BoatPrices prices={boat.prices}/>
+    <BoatSpecs specs={boat.specs}/>,
   ];
 
   return (

@@ -1,15 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-const LinkBanner = ({ image, title, linkTo, titleBottom = true, changeTitleSize = true, bgBottom = true }) => {
+const LinkBanner = ({ image, title, linkTo, titleBottom = true, changeTitleSize = true, bgBottom = true, small = false }) => {
   return (
     <Link
       to={linkTo}
-      className="w-72 max-w-sm rounded-md flex-auto sm:flex-none mx-10  h-80 sm:w-96 relative shadow-xl group overflow-hidden m-8"
+      className={`w-72 max-w-sm rounded-md flex-auto sm:flex-none mx-10  sm:w-96 relative shadow-xl group overflow-hidden m-8
+        ${small ? " h-60 " : " h-80 "}
+      `}
     >
       {/* Background Image */}
       <div
-        className={`${bgBottom ? " bg-bottom " : " bg-center "}absolute inset-0 bg-cover  transition-transform duration-500 ease-out group-hover:scale-110`}
+        className={`${bgBottom ? " bg-bottom " : " bg-center "}absolute inset-0 bg-cover transition-transform duration-500 ease-out group-hover:scale-110`}
         style={{ backgroundImage: `url(${image})` }}
       />
 

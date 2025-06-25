@@ -2,7 +2,7 @@ import React from 'react'
 import CustomPaginationCarousel from '../../components/Shared/CostumPaginationCarousel';
 
 const BoatDetails = ({BoatName, Slides}) => {
-    const paginationLabels = ["About", "Specs", "Prices"];
+  const paginationLabels = ["About", "Specs"];
 
   return (
     <div className='text-primary w-full pt-8 flex flex-col gap-8'>

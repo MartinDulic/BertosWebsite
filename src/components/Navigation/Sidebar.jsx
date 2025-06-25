@@ -18,7 +18,7 @@ const Sidebar = ({ isOpen, onClose }) => {
   return (
     <section
       id="sidebar"
-      className={`z-10 md:hidden bg-secondary fixed h-full w-full transform transition-transform duration-300 ease-in-out ${
+      className={`z-10 md:hidden bg-primary fixed h-full w-full transform transition-transform duration-300 ease-in-out ${
         isOpen ? 'translate-y-0' : '-translate-y-full'
       }`}
     >

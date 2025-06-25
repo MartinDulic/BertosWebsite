@@ -9,7 +9,6 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Slider = ({slides, arrowStyle}) => {
  
-
   return (
     <Swiper
       modules={[Navigation, Pagination, Autoplay]}
@@ -30,6 +29,7 @@ const Slider = ({slides, arrowStyle}) => {
       {slides.map((slide, index) => (
         <SwiperSlide
           key={index}
+          className="h-fit"
         >
           {slide}
         </SwiperSlide>
