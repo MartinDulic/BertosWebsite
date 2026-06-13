@@ -175,7 +175,7 @@ const boats = [
             {bold: false, text: "The "},            
             {bold: true, text: "Beneteau Flyer 8 "},    
             {bold: false, text: "with a "},            
-            {bold: true, text: "350 horsepower Suzuki engine "},    
+            {bold: true, text: "300 horsepower Suzuki engine "},    
             {bold: false, text: "is the perfect combination of performance, comfort, and style. Designed for those seeking an exciting yet comfortable boating experience, this boat delivers outstanding power and smooth handling on the water."},            
             {endl: true},
             {bold: false, text: "Equipped with a "},            

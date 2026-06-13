@@ -21,7 +21,7 @@ const groupTours = [
     {
         id: 100,
         bannerImage: Uvala,
-        name: "3 ISLANDS TOUR",
+        name: "3 ISLAND TOUR",
         locations: ["Hvar", "Brač", "Zečevo"],
         desc: "This well-rounded, 5-stop speedboat tour is the perfect combination of adventure, relaxation, and exploration, showcasing some of the most beautiful destinations along the Dalmatian coast in just a few hours. Whether you’re looking to swim, snorkel, or simply unwind in paradise, this tour offers it all.",
         basicInfo: [
@@ -129,39 +129,39 @@ const groupTours = [
             }
         ]
     },
-        {
-            id: 102,
-            bannerImage: sunsetMain,
-            name: "SUNSET TOUR",
-            locations: ["Puntica"],
-            desc: "A sunset along the Makarska Riviera is truly a sight to behold, best experienced from the sea. Join us for a 90-minute Sunset Tour, where you'll not only enjoy the stunning views but also have the chance to swim in a secluded bay on the island of Brač.",
-            basicInfo: [
-                { name: "Duration", content: "1h 30min" },
-                { name: "Departure time", content: "6:00-8:00 PM (depends on date)" },
-                { name: "Return time", content: "7:30-9:30 PM (depends on date)" },
-                { name: "Meeting point", content: "Port of Makarska; Marineta 16, 21300 Makarska, Rent a boat Berto's stand" },
-                { name: "Included", content: "Speedboat, skipper, fuel, snorkeling masks, taxes & fees" },
-                { name: "What to Bring", content: "Warm clothes for the boat ride, beach towel, swimsuit, drinks, and snacks if desired" },
-                { name: "Private Sunset Tour Price", content: "230€" },
-                { name: "Sunset Tour Group Price", content: "30€ per person / 25€ for children (3 – 10 years) / infants (0 – 2 years) FREE" }
-            
-            ],
-            landmarks: [
-                "Secluded Puntica Bay on Brač Island"
-            ],
-            stops: [
-                {
-                    image: sunset0600,
-                    time: "6:00 PM",
-                    text: "We’re setting off for the peaceful and secluded Puntica Bay on Brač Island, located just a short 20-minute boat ride away from our starting point. We’ll spend around 40 minutes in this serene bay, allowing you ample time to enjoy the peaceful surroundings and stunning scenery. Away from the crowds, this secluded spot offers crystal-clear waters and a peaceful atmosphere. Surrounded by rugged coastline and lush greenery, this serene bay provides the perfect setting to cool off and soak in the tranquility of the Adriatic."
-                },
-                {
-                    image: sunset0700,
-                    time: "7:00 PM",
-                    text: "As we make our way back, get ready for a truly breathtaking experience. On the return journey, we’ll slowly sail from Makarska’s western entrance towards the harbor, offering you a panoramic view of the city as the sun begins to set. The warm glow of the setting sun will paint the sky with vibrant hues, casting a magical light over the coastline and creating the perfect backdrop for a nice picture, video, and a memorable end to this unforgettable journey."
-                }
-            ],
-        },
+    {
+        id: 102,
+        bannerImage: sunsetMain,
+        name: "SUNSET TOUR",
+        locations: ["Puntica"],
+        desc: "A sunset along the Makarska Riviera is truly a sight to behold, best experienced from the sea. Join us for a 90-minute Sunset Tour, where you'll not only enjoy the stunning views but also have the chance to swim in a secluded bay on the island of Brač.",
+        basicInfo: [
+            { name: "Duration", content: "1h 30min" },
+            { name: "Departure time", content: "6:00-8:00 PM (depends on date)" },
+            { name: "Return time", content: "7:30-9:30 PM (depends on date)" },
+            { name: "Meeting point", content: "Port of Makarska; Marineta 16, 21300 Makarska, Rent a boat Berto's stand" },
+            { name: "Included", content: "Speedboat, skipper, fuel, snorkeling masks, taxes & fees" },
+            { name: "What to Bring", content: "Warm clothes for the boat ride, beach towel, swimsuit, drinks, and snacks if desired" },
+            { name: "Private Sunset Tour Price", content: "230€" },
+            { name: "Sunset Tour Group Price", content: "30€ per person / 25€ for children (3 – 10 years) / infants (0 – 2 years) FREE" }
+        
+        ],
+        landmarks: [
+            "Secluded Puntica Bay on Brač Island"
+        ],
+        stops: [
+            {
+                image: sunset0600,
+                time: "6:00 PM",
+                text: "We’re setting off for the peaceful and secluded Puntica Bay on Brač Island, located just a short 20-minute boat ride away from our starting point. We’ll spend around 40 minutes in this serene bay, allowing you ample time to enjoy the peaceful surroundings and stunning scenery. Away from the crowds, this secluded spot offers crystal-clear waters and a peaceful atmosphere. Surrounded by rugged coastline and lush greenery, this serene bay provides the perfect setting to cool off and soak in the tranquility of the Adriatic."
+            },
+            {
+                image: sunset0700,
+                time: "7:00 PM",
+                text: "As we make our way back, get ready for a truly breathtaking experience. On the return journey, we’ll slowly sail from Makarska’s western entrance towards the harbor, offering you a panoramic view of the city as the sun begins to set. The warm glow of the setting sun will paint the sky with vibrant hues, casting a magical light over the coastline and creating the perfect backdrop for a nice picture, video, and a memorable end to this unforgettable journey."
+            }
+        ],
+    },
 
 ];
 

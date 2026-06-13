@@ -105,7 +105,7 @@ const privateTours = [
     {
         id: 2,
         bannerImage: blue1015,
-        name: "BLUE CAVE TOUR",
+        name: "BLUE TOUR",
         locations: ["Pokrivenik", "Little Blue Cave", "Stiniva", "Jelsa", "Vrboska", "Zecevo", "Puntica"],
         desc: "Experience the magic of the Small Blue Cave, a hidden natural wonder, while also enjoying the tranquil and serene atmosphere of the unspoiled bays on the islands of Brač and Hvar. Explore the charming town of Jelsa, where history and beauty come together, offering a peaceful escape with its picturesque streets, vibrant culture, and stunning surroundings. Discover the perfect balance between adventure and relaxation in this idyllic coastal paradise.",
         basicInfo: [

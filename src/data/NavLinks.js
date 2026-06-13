@@ -1,6 +1,6 @@
 const navLinks = [
     { linkText: "Home", toPath: "/" },
-    { linkText: "Fleet", toPath: "/fleet" },
+    { linkText: "Boats", toPath: "/fleet" },
     { linkText: "Private Tours", toPath: "/privateTours" },
     { linkText: "Group Tours", toPath: "/groupTours" },
     { linkText: "Transfers", toPath: "/transfers" },
